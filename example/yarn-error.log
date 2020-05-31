@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/chadoh/.asdf/installs/nodejs/12.14.1/bin/node /Users/chadoh/.asdf/installs/nodejs/12.14.1/.npm/bin/yarn install
+
+PATH: 
+  /Users/chadoh/.npm/_npx/5909/bin:/Users/chadoh/.asdf/installs/nodejs/12.14.1/bin:/Users/chadoh/.asdf/installs/nodejs/12.14.1/.npm/bin:/Users/chadoh/.local/bin:/Users/chadoh/.cargo/bin:/Users/chadoh/.cargo/bin:/Users/chadoh/.yarn/bin:./node_modules/.bin:.gs/bin/:~/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/chadoh/.yarn/bin:/Users/chadoh/.cargo/bin:/Users/chadoh/.asdf/shims:/usr/local/opt/asdf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/chadoh/.local/bin:/Users/chadoh/.cargo/bin:/Users/chadoh/.yarn/bin:./node_modules/.bin:.gs/bin/:~/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/opt/asdf/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/chadoh/code/react-offline-first-helpers/node_modules/react-scripts/node_modules/@babel/plugin-syntax-object-rest-spread'
+
+npm manifest: 
+  {
+    "name": "react-offline-first-helpers-example",
+    "homepage": "https://chadoh.github.io/react-offline-first-helpers",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "react-offline-first-helpers": "link:.."
+    },
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
